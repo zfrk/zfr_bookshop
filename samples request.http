@@ -1,0 +1,10 @@
+### Submit Orders
+POST  http://localhost:4004/browse/Orders
+Content-Type: application/json
+
+{
+    "OrderNo":"2019-09...", "Items": [{ "book_ID":201, "amount":5}]
+}
+
+### Check Books
+GET http://localhost:4004/admin/Books(201)
